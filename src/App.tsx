@@ -31,6 +31,15 @@ export default function App() {
         style={{ width: "80vmin", height: "40vmin" }}
         value={output}
       />
+      <a href="mailto:captioning@deafchoice.com">captioning@deafchoice.com</a>
+      <br />
+      <a href="https://www.deafchoice.com">
+        <img
+          alt="Deaf Choice Inc"
+          style={{ height: "50px" }}
+          src="https://drive.google.com/uc?export=view&id=14xlJXjqHws19Cho7D0QQIL1NBnjBQpJf"
+        />
+      </a>
     </div>
   );
 }
