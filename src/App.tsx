@@ -31,6 +31,7 @@ export default function App() {
         style={{ width: "80vmin", height: "40vmin" }}
         value={output}
       />
+      <br />
       <a href="mailto:captioning@deafchoice.com">captioning@deafchoice.com</a>
       <br />
       <a href="https://www.deafchoice.com">
