@@ -13,6 +13,8 @@ export default function App() {
 
   return (
     <div className="App">
+      <label>Paste text from Zoom here:</label>
+      <br />
       <textarea
         placeholder="Paste text here"
         style={{ width: "80vmin", height: "40vmin" }}
@@ -21,6 +23,9 @@ export default function App() {
           setInput(e.target.value);
         }}
       />
+      <br />
+      <label>Copy output from here:</label>
+      <br />
       <textarea
         placeholder="Get formatted output here"
         style={{ width: "80vmin", height: "40vmin" }}
